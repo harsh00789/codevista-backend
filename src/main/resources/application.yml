@@ -2,12 +2,12 @@ server:
   port: ${PORT:8080}
 spring:
   application:
-    name: payment
-  datasource:
-    url: ${DB_URL}
-    username: ${DB_USER}
-    password: ${DB_PASS}
-    driver-class-name: org.postgresql.Driver
+    name: codevista
+#  datasource:
+#    url: ${DB_URL}
+#    username: ${DB_USER}
+#    password: ${DB_PASS}
+#    driver-class-name: org.postgresql.Driver
 #  data:
 #    redis:
 #      #      port: ${REDIS_PORT}
@@ -17,6 +17,6 @@ spring:
 #        enabled: true
 
 
-  jpa:
-    hibernate:
-      ddl-auto: update
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
