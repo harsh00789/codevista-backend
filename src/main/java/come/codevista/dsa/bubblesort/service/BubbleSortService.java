@@ -45,6 +45,8 @@ public class BubbleSortService {
             }
         }
         """;
-        return new AlgorithmResponse(steps, code, "Bubble Sort is a simple comparison-based sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.", "O(n^2)", "O(1)");
+
+        return new AlgorithmResponse(steps, code, "Bubble Sort is a simple comparison-based sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.", "O(n^2)", "O(1)",
+                null);
     }
 }

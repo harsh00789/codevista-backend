@@ -59,6 +59,7 @@ public class MinBitWiseOr3858Service {
             }
 
 
-            return Map.of("finalAns",finalAns,"steps",steps);
+            return Map.of("finalAns",finalAns,"steps",steps,
+            "leetcodeLink","https://leetcode.com/problems/minimum-bitwise-or-from-grid/");
         }
     }

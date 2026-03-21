@@ -24,8 +24,15 @@ public class DesignResponse {
     }
 
     @Data
+    @AllArgsConstructor
     public static class Edge{
-        private final String source;
-        private final String target;
+        private String source;
+        private String target;
+        private String label;
+
+       public Edge(String source,String target){
+            this.source = source;
+            this.target = target;
+        }
     }
 }

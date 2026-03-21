@@ -59,7 +59,9 @@ List<Step> steps = solveTwoSum(twoSumRequest);
                 If yes, return the indices of the complement and the current number.
                 If no, insert the current number and its index into the hash map and move to the next.
                 """;
-        return new AlgorithmResponse(steps,code,explanation,time,space);
+
+        String leetcodeLink = "https://leetcode.com/problems/two-sum/";
+        return new AlgorithmResponse(steps,code,explanation,time,space,leetcodeLink);
 
     }
 }

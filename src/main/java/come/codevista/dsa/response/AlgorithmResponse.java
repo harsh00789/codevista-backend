@@ -12,4 +12,5 @@ public class AlgorithmResponse {
     private final String explanation;
     private final String timeComplexity;
     private final String spaceComplexity;
+    private final String leetcodeLink;
 }
